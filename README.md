@@ -6,9 +6,9 @@ The Sustainability Language Analysis Tool (SLAT) is a project aimed at assessing
 
 * Web Scraping: SLAT uses Scrapy, a powerful open-source web crawling framework, to gather the required text data.
 
-* Text Analysis: The tool uses various NLP techniques for analyzing the text data. This includes tokenization, lemmatization, keyword counting and sentiment analysis to count the frequency of sustainability-related keywords and understand the sentiment behind the language used when discussing sustainability.
+* Text Analysis: The tool uses various NLP techniques for analyzing the text data. This includes tokenization, lemmatization, keyword counting and sentiment analysis to count the frequency of sustainability-related keywords and understand the sentiment behind the language used when discussing sustainability. The keyword frequency and sentiment scores are then used to calculate a sustainability score for each company.
 
-* Rating Algorithm: Based on the results of the language analysis, SLAT includes an algorithm that rates the SMEs' commitment to sustainability.
+* Rating Algorithm: Based on the results of the language analysis, SLAT includes an algorithm that rates the companies' commitment to sustainability. Companies are categorized into three tiers of sustainability commitment (low, medium, high) based on the quantiles of their sustainability scores.
 
 # Tech Stack
 * Scrapy
