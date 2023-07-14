@@ -14,7 +14,7 @@ The Sustainability Language Analysis Tool (SLAT) is a project aimed at assessing
 * Scrapy
 * Natural Language Toolkit (NLTK)
 * BeautifulSoup
-* MongoDB
+* pandas
 
 
 
