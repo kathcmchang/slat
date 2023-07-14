@@ -1,0 +1,4 @@
+url,company,keywords,keyword_count,sentiment_positive,sentiment_neutral,sentiment_negative,sentiment_compound,score,tier
+http://example1.com,Company1,"sustainability, green, carbon-neutral, renewable, recycle",6,0.228,0.69,0.082,0.7841,6.876,high
+http://example2.com,Company2,"sustainability, green, carbon-neutral",3,0.254,0.746,0.0,0.802,3.762,medium
+http://example3.com,Company3,"sustainability, green",3,0.238,0.762,0.0,0.7579,3.714,low
